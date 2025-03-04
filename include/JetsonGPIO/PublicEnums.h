@@ -25,7 +25,7 @@ DEALINGS IN THE SOFTWARE.
 #ifndef PUBLIC_ENUMS_H
 #define PUBLIC_ENUMS_H
 
-#include <cstdio> // for size_t
+#include <cstdint> // for size_t
 
 #define _ARG_COUNT(_1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, N, ...) N
 #define _EXPAND(x) x
